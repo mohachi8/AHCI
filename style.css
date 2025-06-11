@@ -114,3 +114,6 @@ img:hover {
 .section1 {
   color: red;
 }
+.text-sm {
+  font-size: .875em;
+}

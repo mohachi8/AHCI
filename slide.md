@@ -19,12 +19,12 @@ math: true
   <div>
     <div>１．発表者が使ったことない映写機に</div>
     <div class="pl-[50px]">フィルムを通そうとしている</div>
-    <img src="./img/S1.png" class="w-[150px] mx-auto mt-3" />
+    <img src="./img/S1.png" class="w-[150px] translate-x-[130px] mt-3" />
   </div>
 
   <div>
     <div>２．手助けがきて、議論が起こる  </div>
-    <img src="./img/S1.png" class="w-[150px] mx-auto mt-10" />
+    <img src="./img/S1.png" class="w-[150px] translate-x-[100px] mt-10" />
   </div>
   
 </div>

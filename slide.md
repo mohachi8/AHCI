@@ -19,12 +19,12 @@ math: true
   <div>
     <div>１．発表者が使ったことない映写機に</div>
     <div class="pl-[50px]">フィルムを通そうとしている</div>
-    <img src="./img/S1.png" class="w-[150px] mx-auto mt-3" />
+    <img src="./img/Slide1.png" class="w-[150px] mx-auto mt-3" />
   </div>
 
   <div>
     <div>２．手助けがきて、議論が起こる  </div>
-    <img src="./img/S1.png" class="w-[150px] mx-auto mt-10" />
+    <img src="./img/Slide2.png" class="w-[150px] mx-auto mt-10" />
   </div>
   
 </div>
@@ -33,12 +33,12 @@ math: true
   <div>
     <div>３．会議の責任者が登場し、</div>
     <div class="pl-[50px]">聴衆たちに助けを求める </div>
-    <img src="./img/S1.png" class="w-[150px] translate-x-[130px] mt-3" />
+    <img src="./img/Slide3.png" class="w-[150px] translate-x-[130px] mt-3" />
   </div>
 
   <div class = "pr-[164px]">
     <div>４．技術者が解決</div>
-    <img src="./img/S1.png" class="w-[150px] translate-x-[100px] mt-10" />
+    <img src="./img/Slide4.png" class="w-[150px] translate-x-[100px] mt-10" />
   </div>
 </div>
 

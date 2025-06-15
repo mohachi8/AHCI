@@ -1,6 +1,7 @@
 ---
 marp: true
 paginate: true
+math: true
 ---
 <script src="https://cdn.tailwindcss.com/3.0.16"></script>
 <script>tailwind.config = { corePlugins: { preflight: false } }</script>
@@ -48,88 +49,78 @@ paginate: true
 - 人が何かをするときに何が起きているかを知る<br>**行為の構造**の検討が必要
 <!-- 
 なぜフィルムを通すのが困難だか、皆さん説明できますか？
-ここでは、
+ここでは、行為の構造というものにのっとって検討していきましょう
  -->
 ---
 
 ## 行為の構造
-### 行為＝**実行**+**評価**
-- 実行
-- -  何かをすること
-- 評価
-- - それをチェックすること
----
-## 行為遂行のサイクル
-<div class="flex justify-center items-center">
-    <div class="mermaid">
-flowchart TD
-          A[ゴールの形成] --> B[意図の形成]
-          B --> C[行為の詳細化]
-          C --> D[行為の実行]
-          D --> E[外界の状況の知覚]
-          E --> F[外界の状況の解釈]
-          F --> G[結果の評価]
+### 行為＝<span style="color: red; ">実行</span>+<span style="color: green; ">評価</span>
+
+<div class="grid grid-cols-2">
+  <div class="grid-item">
+    <ul>
+      <li>実行＝何かをすること</li>
+      <li>評価＝チェックすること</li>
+    </ul>
+  </div>
+  <div class="grid-item">
+  <img src="./img/action_process1.drawio.svg" class="w-[500px]" />
   </div>
 </div>
 
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
-mermaid.initialize({
-  startOnLoad: true,
-  theme: "default",
-  themeVariables: {
-    fontSize: "20px",
-  }
-});
-window.addEventListener('vscode.markdown.updateContent', function() { mermaid.init() });
-</script>
+### ゴール＝起こって欲しいこと
+### <span style="color: red; ">実行</span>=外界に対して行ったこと
+### <span style="color: green; ">評価</span>＝外界に実際に起きたこととゴールとの比較
+<!-- 
+まず、行為は2つのことに分類されます。実行と評価です。
+実行する前に、行為をするものはゴール、つまり何をしたいかを策定します。それを達成するために外界に何かしらの働きかけを行います。その外界への働きかけを実行といいます。
+実行した後は、それが目標のゴールと得られたものが合致しているかどうかを「評価します」
+ -->
 
 ---
-### ４つの考えなければならないこと
+## 実行（ゴール→外界）の変換過程①
+### ゴールは明確なものか？
+$$\begin{pmatrix}
+何か食べよう\\
+身支度でもするか
+\end{pmatrix}←はっきり記述されないゴール$$
+$$このままでは行為につながらない...!$$
+### <span style="font-size: 2rem; display: inline-block; text-align: center; width: 100%;">行為につなげるためにゴールを特定する、<b style="font-size: 3rem; color: red; display: inline-block; text-align: center; width: 100%;">意図</b>に表現を変換</span>
 
-- ゴール
-- 外界に何をするか
-- 外界そのもの
-- 外界のチェック
+<!-- 
 
+ -->
 ---
+## 実行（ゴール→外界）の変換過程②
+### 意図を持った者は体を動かす
+ - 具体的行為＝「ゴールと意図」と「身体動作」を結びつける
+  - - 行為の詳細化
+  - - - 何の行為をするか特定
+  - - 行為の実行
+  - - - 実際に行為をする 
 
-# 人はどのように作業をするか
+<!-- 
 
-## ４つの考えなければならないこと
+ -->
 
-- ゴール
-- 外界に何をするか ― 実行
-- 外界そのもの
-- 外界のチェック ― 評価
-- ゴールを行為につなげるための表現変換 ― 意図
-
-
----
-
-<div class="flex justify-center items-center ">
-    <div class="mermaid">
-      flowchart TD
-          A[ゴールの形成] --> B[意図の形成]
-          B --> C[行為の詳細化]
-          C --> D[行為の実行]
-          D --> E[外界の状況の知覚]
-          E --> F[外界の状況の解釈]
-          F --> G[結果の評価]
-  </div>
+ --- 
+ # 実行（ゴール→外界）の変換まとめ
+ <div align="center">
+ <img src="./img/action_process3.png" >
 </div>
+<!-- 
+実行は3つのフェーズ
+ -->
 
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.esm.min.mjs';
-mermaid.initialize({
-  startOnLoad: true,
-  theme: "default",
-  themeVariables: {
-    fontSize: "20px",
-  }
-});
-window.addEventListener('vscode.markdown.updateContent', function() { mermaid.init() });
-</script>
+---
+ # 評価（外界→ゴール）の変換まとめ
+ <div align="center">
+ <img src="./img/action_process4.png" >
+</div>
+<!-- 
+評価は3つのフェーズ
+ -->
+
 ---
 ## 行為の7段階についてまとめると
 <div class="flex justify-center items-center  ml-[10px]  mt-[1px] top-0">

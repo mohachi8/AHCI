@@ -213,12 +213,16 @@ For example, getting a job at your desired company involves many action sequence
 
 - **The existence of a gulf → Major difficulty for users**
 
+<!-- In most tasks, it is difficult to determine the relationship between intentions, interpretations, actual actions, and situations in the mind. The distance between these is called a "gulf." And because the gulf separates the state in the mind from the state of the external world, the existence of a gulf is a major difficulty for users. From here, we will explain the gulf of execution and the gulf of evaluation separately. -->
+
 ---
 
 ## Gulf of Execution
 
 - The difference between the user's intention and the actions allowed by the system
 - How intuitively the user can perform actions as intended is one measure of the size of this gulf
+
+<!-- First, the gulf of execution refers to the difference between the user's intention and the actions allowed by the system. How intuitively the user can perform actions as intended is one measure of the size of the gulf of execution. -->
 
 ---
 ## Example of Gulf of Execution (Projector)
@@ -227,12 +231,18 @@ For example, getting a job at your desired company involves many action sequence
 - On the other hand, projectors with automatic film threading or VCRs (where you just insert the cassette and it plays) can be said to **bridge the gulf**
 <img src="./img/gulf_of_exe_ex.svg" class="w-[600px]" />
 
+<!-- In the case of the projector example earlier, it was not at all clear what actions were needed to achieve the intention of "setting up the projector and showing the film," showing the existence of a gulf of execution.
+On the other hand, for example, projectors with automatic film threading or VCRs (where you just insert the cassette and it plays) can delegate the task of threading the film to the machine, and these can be said to bridge the gulf.
+-->
+
 ---
 
 ## Gulf of Evaluation
 
 - How much effort is required for the user to interpret the physical state of the system and judge how well their expectations or intentions have been met
 - Is the system perceivable and interpretable as it is?
+
+<!-- Next, the gulf of evaluation refers to the difficulty in interpreting the physical state of the system and judging how well one's expectations or intentions have been met. When the gulf of evaluation is small, the system's state is easy to understand and interpret, and the system's response matches the user's predictions. -->
 
 ---
 
@@ -242,10 +252,27 @@ For example, getting a job at your desired company involves many action sequence
 - In the case of a VCR, if the cassette is not inserted properly, it will not fit and will pop out
 → You can tell when something has gone wrong
 
+<!-- In the case of the projector example earlier, when the film is inserted into the projector, it was difficult to judge whether it was wound correctly.
+On the other hand, with a VCR, if the cassette is not inserted properly, it won't fit and will pop out, so you can tell when something has gone wrong.
+-->
+
 ---
 
 ## Seven Stages of Action Theory as a Design Aid
 
 - Provides valuable assistance in design
 - ↓
-- Can be used as a checklist to see if the gulfs in execution and evaluation are
+- Can be used as a checklist to see if the gulfs in execution and evaluation are bridged
+- These correspond to the **principles of good design** mentioned in Chapter 1
+  - Visibility
+  - Good conceptual model
+  - Good mapping
+  - Feedback
+
+<!-- The structure of the seven stages of action provides valuable assistance in design and can be used as a checklist to see if the gulfs in execution and evaluation are bridged (the next page shows the seven stages theory on the left and a checklist based on it on the right). These correspond to the "principles of good design" mentioned in Chapter 1 and support one or more of the seven stages. -->
+
+---
+<div class="flex justify-between">
+  <img src="./img/the_seven_stage_of_action.jpeg" class="w-[500px]" />
+  <img src="./img/7questions.jpeg" class="w-[500px]" />
+</div>

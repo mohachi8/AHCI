@@ -14,7 +14,9 @@ math: true
 ---
 
 ## 回想
+<!--これは、筆者がイタリアで会議に出席していた時の話です。-->
 
+<!--発表者の一人がこれまでに使ったことのない映写機にフィルムを通そうとしているが、思うようにいかない-->
 <div class = "flex justify-center justify-between mx-[80px] text-2xl">
   <div>
     <div>１．発表者が使ったことない映写機に</div>
@@ -23,6 +25,7 @@ math: true
 
   </div>
 
+<!--誰かが助けに来て、どうやったらフィルムの端を巻取り側のリールに巻き付けられるかを議論している-->
   <div>
     <div>２．手助けがきて、議論が起こる  </div>
     <img src="./img/Slide2.png" class="w-[150px] translate-x-[130px] mt-10" />
@@ -30,6 +33,7 @@ math: true
   
 </div>
 
+<!--会議の責任者が登場し、会議場で我慢強く待っていた聴衆たちに向き直り、助けを求めた-->
 <div class = "flex justify-center justify-between mx-[80px] text-2xl mt-5">
   <div>
     <div>３．会議の責任者が登場し、</div>
@@ -37,13 +41,13 @@ math: true
     <img src="./img/Slide3.png" class="w-[150px] translate-x-[130px] mt-3" />
   </div>
 
+<!--青い服を着た技術者が現れ、フィルムを映写機から全部取り外し、もう一度通し、うまく映写し始めた-->
   <div class = "pr-[164px]">
     <div>４．技術者が解決</div>
-    <img src="./img/Slide4.png" class="w-[150px] translate-x-[100px] mt-10" />
+    <img src="./img/Slide4.png" class="w-[150px] translate-x-[120px] mt-10" />
   </div>
 </div>
 
-<!-- 図にしたい .このままだとわかりにくい-->
 ---
 
 ## Q. 映写機にフィルムを通すのが難しいは？ 
